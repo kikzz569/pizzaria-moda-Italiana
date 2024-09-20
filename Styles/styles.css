@@ -1,0 +1,27 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+:root {
+
+    --color-negative: #151515;
+    --color-zero: #fff;
+
+    --color-one: #f50e0e;
+    --color-two: #0e880a;
+}
+
+:root {
+    --font-family-one: "Montserrat", sans-serif;
+    --font-family-two: "Merriweather", serif;;
+}

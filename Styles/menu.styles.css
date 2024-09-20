@@ -1,0 +1,47 @@
+#menu {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    margin: 6rem 0
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: column; 
+    color: var(--color-two);
+    border: 1px solid var(--color-zero);
+    border-radius: 5px;
+    align-items: center;
+}
+
+#menu-container h1{
+    font-family: var(--font-family-one);
+    padding: 1rem;
+    font-size: 25px;
+}
+
+#menu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-items {
+    font-family: var(--font-family-two);
+    display: flex;
+    border: 1px solid var(--color-zero);
+    color: var(--color-zero);
+    border-radius: 5px;
+}
+
+.txt-menu-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+.name-pizza {
+    color: var(--color-two);
+}
+

@@ -1,0 +1,55 @@
+@keyframes animation{
+
+    0% {transform: translateX(-200%); display: none;}
+    100% {transform: translateX(0);}
+}
+
+#home {
+    background: url(../Img/background1.png);
+    height: 100vh;
+    background-position: end;
+    background-size: cover;
+}
+
+#home-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translateX(-50%);
+    gap: 1rem;
+    font-size: 2rem;
+    font-family: var(--font-family-two);
+    font-weight: 300;
+}
+
+#home-container h3 {
+    font-family: var(--font-family-one);
+    font-size: 2.8rem;
+    color: var(--color-zero);
+    font-weight: 700;
+    margin-bottom: 3rem;
+    animation-name: animation;
+    animation-duration: 2s;
+    
+}
+
+
+#home-container p{
+    font-style: italic;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#txt-home{
+    color: var(--color-two);
+}
+
+#txt-home strong {
+    color: var(--color-zero);
+}
+
+#txt-home2{
+    color: var(--color-one);
+}

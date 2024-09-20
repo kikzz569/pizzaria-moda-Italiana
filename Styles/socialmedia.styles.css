@@ -1,0 +1,18 @@
+#socialMedia{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons-social{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    color: var(--color-zero);
+}
+
+.icons-social p{
+    font-family: var(--font-family-two);
+    font-size: 20px;
+
+}
